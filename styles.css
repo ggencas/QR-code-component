@@ -3,54 +3,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* CSS Reset */
 
 body {
   font-family: 'Outfit', sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   background-color: hsl(212, 45%, 89%);
   display: flex;
   flex-direction: column;
@@ -61,38 +142,39 @@ body {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
-  max-width: 300px;
-  margin: 50px 10px;
-  padding: 15px;
+  border-radius: 0.9375rem;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.25);
+  max-width: 18.75rem;
+  margin: 3.125rem 0.625rem;
+  padding: 0.9375rem;
 }
 
 img {
-  border-radius: 10px;
+  border-radius: 0.625rem;
   width: 100%;
   height: auto;
 }
 
-h1, p {
+h1,
+p {
   text-align: center;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 h1 {
   color: hsl(218, 44%, 22%);
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
 }
 
 p {
   color: hsl(220, 15%, 55%);
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
 }
 
 .attribution p {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 .attribution a {
